@@ -31,7 +31,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 2rem;
+  padding-block: 2rem 4rem;
   column-gap: 2rem;
   position: relative;
 }
@@ -177,8 +177,7 @@ hr {
 
 .hero img {
   width: 70%;
-  min-width: 300px;
-  min-width: 300px;
+  min-width: 330px;
 }
 
 p a {
@@ -227,6 +226,10 @@ small {
 
   .hero h1 {
     font-size: 3.5rem;
+  }
+
+  .hero img {
+    width: 80%;
   }
 
   .hero div p {
