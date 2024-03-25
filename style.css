@@ -9,7 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: url("./images/bg-2.png") no-repeat center/cover;
+  background: #c3e2bc url("./images/bg-2.png") no-repeat center/cover;
   padding-bottom: 6rem;
 }
 
@@ -193,8 +193,21 @@ small {
   }
 }
 
+@media (max-width: 880px) {
+  .hero {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    row-gap: 4rem;
+  }
+
+  .hero div p {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 680px) {
   .nav-sideBar {
-    width: 100%;
+    width: 100vw;
   }
 }
