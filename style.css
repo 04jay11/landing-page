@@ -76,7 +76,7 @@ main > i:hover {
 .nav-sideBar {
   background: #fff9f9;
   height: 100%;
-  width: 60vw;
+  width: 70vw;
   position: fixed;
   top: 0;
   right: -100%;
@@ -237,7 +237,7 @@ small {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 720px) {
   .nav-sideBar {
     width: 100vw;
   }
