@@ -150,6 +150,11 @@ hr {
   transform: scale(1.2);
 }
 
+.nav-sideBar p {
+  margin-top: 1rem;
+  text-align: center;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -193,6 +198,7 @@ p a:hover {
 small {
   display: flex;
   justify-content: center;
+  text-align: center;
   color: #056666;
 }
 
