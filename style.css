@@ -62,7 +62,7 @@ main > i {
   color: #056666;
   position: absolute;
   top: 4rem;
-  right: 2rem;
+  right: 5%;
   visibility: hidden;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
@@ -190,5 +190,11 @@ small {
 
   main > i {
     visibility: visible;
+  }
+}
+
+@media (max-width: 680px) {
+  .nav-sideBar {
+    width: 100%;
   }
 }
