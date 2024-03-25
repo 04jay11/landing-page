@@ -98,7 +98,7 @@ hr {
   opacity: 0.25;
 }
 
-.nav-sideBar i {
+.nav-sideBar > i {
   font-size: 2.5rem;
   color: #056666;
   position: absolute;
@@ -108,32 +108,46 @@ hr {
   cursor: pointer;
 }
 
-.nav-sideBar i:hover {
+.nav-sideBar > i:hover {
   color: #179ce9;
 }
 
-.nav-sideBar ul {
+.nav-sideBar-list {
   margin-block: 4rem;
 }
 
-.nav-sideBar ul li {
+.nav-sideBar-list li {
   margin-bottom: 2rem;
 }
 
-.nav-sideBar ul li a {
+.nav-sideBar-list li a {
   color: #056666;
   font-size: 1rem;
   font-weight: 600;
   transition: all 0.4s ease-in-out;
 }
 
-.nav-sideBar ul li a:hover {
-  color: rgb(23, 156, 233);
+.nav-sideBar-list li a:hover {
+  color: #179ce9;
   padding-left: 1rem;
 }
 
-.nav-sideBar small {
-  font-size: 0.7rem;
+.social-links {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-top: 1rem;
+}
+
+.social-links li a i {
+  font-size: 2rem;
+  color: #179ce9;
+  transition: transform 0.4s ease;
+}
+
+.social-links li a i:hover {
+  color: #056666;
+  transform: scale(1.2);
 }
 
 .hero {
@@ -157,10 +171,9 @@ hr {
 }
 
 .hero img {
-  width: 50%;
+  width: 70%;
   min-width: 300px;
   min-width: 300px;
-  opacity: 0.7;
 }
 
 p a {
@@ -188,6 +201,10 @@ small {
     display: none;
   }
 
+  .hero h1 {
+    font-size: 4rem;
+  }
+
   main > i {
     visibility: visible;
   }
@@ -199,6 +216,10 @@ small {
     align-items: center;
     text-align: center;
     row-gap: 4rem;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
   }
 
   .hero div p {
