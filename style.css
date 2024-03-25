@@ -200,6 +200,7 @@ small {
   justify-content: center;
   text-align: center;
   color: #056666;
+  padding-inline: 1rem;
 }
 
 @media (max-width: 1020px) {
